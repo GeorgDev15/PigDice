@@ -1,0 +1,18 @@
+Data to keep track of: 
+- State of the game, (WHo's playing, if it's started, finished)
+- current player turn
+- during turn, keep track of turn total
+- after passing turn: add turn total to players game total
+- game total for each player
+
+
+game class
+    - currentPlayer
+    - gameState
+    - currentTurnTotal
+    - gameTotal1
+    - gameTotal2
+    - startGame();
+    - rollDice();
+    - passTurn();
+    
